@@ -1,0 +1,60 @@
+.main-box{
+  position: relative;
+  width: 100%;
+  height: 400px;
+
+  top: 300px;
+}
+.main-app{
+  width: 500px;
+  height: 70%;
+
+  border: 2px solid rgb(58, 58, 196);
+  border-radius: 0px 50px 0px 50px;
+
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.gift-box{
+  width: 100%;
+  height: 30%;
+
+  position: absolute;
+  top: 30px;
+}
+.gift-box p {
+  width: 100%;
+  height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+
+  text-align: center;
+}
+.gift-box button{
+  height: 50px;
+  width: 200px;
+
+  border: 2px solid grey;
+  border-radius: 20px 20px 20px 20px;
+  background-color: greenyellow;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  position: absolute;
+  top: 182px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.gift-box button:hover{
+  background-color: black;
+
+  font-size: 26px;
+  color: whitesmoke;
+}
